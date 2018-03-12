@@ -1,0 +1,27 @@
+{
+  "name": "create-lowdb-sync",
+  "version": "1.0.2",
+  "description": "",
+  "repository": "jimthedev/create-lowdb-sync",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack --mode development --target node --module-bind js=babel-loader",
+    "build": "webpack --mode production --target node --module-bind js=babel-loader",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jim Cummins <jimthedev@gmail.com> (http://github.com/jimthedev)",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "lowdb": "^1.0.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
