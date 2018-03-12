@@ -1,6 +1,6 @@
 {
   "name": "create-lowdb-sync",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "repository": "jimthedev/create-lowdb-sync",
   "main": "dist/index.js",

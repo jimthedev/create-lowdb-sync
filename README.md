@@ -30,10 +30,10 @@ const identity = createDatabase('identity', () => ({
       hrEmployeeId: 1000
     },
     {
-    	id: 11000,
-    	first_name: 'Michael',
-    	last_name: 'Scott',
-    	tagline: 'Paper king of Scranton, PA! Founder of the Dundies! RegionalManager4Life.',
+      id: 11000,
+      first_name: 'Michael',
+      last_name: 'Scott',
+      tagline: 'Paper king of Scranton, PA! Founder of the Dundies! RegionalManager4Life.',
       username: 'mscott',
       salesforceCompanyId: 2, // Dunder Mifflin
       hrEmployeeId: 1100
